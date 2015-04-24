@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Styles/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="alert alert-warning alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">X</button>
+                Cierra o <a href="www.km77.es" class="alert-link">lee</a>
+            </div>
+            <form class="form-horizontal">
+                <div class="form-group has-error has-feedback">
+                    <label for="address" class="control-label col-md-3">
+                        Adress
+                    </label>
+                    <div class="col-md-6">
+                        <input type="text" name="adress" class="form-control">
+                        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                    </div>
+                </div>
+                <div class="form-group has-error has-feedback">
+                    <label for="username" class="control-label col-md-3">
+                        Username:
+                    </label>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                                <input type="text" name="username" class="form-control">
+                                
+                        </div>
+                        <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-md-offset-3 btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary active">
+                            <input type="radio" id="first" name="sample" checked>
+                            First
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" id="second" name="sample">
+                            Second
+                        </label>
+                        <label class="btn btn-primary">
+                            <input type="radio" id="third" name="sample">
+                            Third
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success col-md-offset-3 col-md-4">
+                        Submit form
+                    </button>
+                </div>
+                
+            </form>
+        </div>
+        <script src="Scripts/jquery-2.1.3.min.js" type="text/javascript"></script>
+        <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+</html>
